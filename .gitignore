@@ -1,0 +1,22 @@
+# SEGURIDAD Y CREDENCIALES (¡Regla de Oro!)
+.env
+.env.local
+.env.*
+*.pem
+*.key
+
+# Archivos del Sistema Operativo
+.DS_Store
+Thumbs.db
+
+# Entornos de Desarrollo (Node.js)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Archivos de logs y debug
+*.log
+
+# Carpetas de configuración de editores (como VS Code)
+.vscode/
+.idea/
